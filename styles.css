@@ -1,0 +1,91 @@
+body {
+
+    background-color: lightblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade la sombra aquí */
+}
+
+.calculator .container-display {
+
+    background-color: #bcedcb; /* Fondo verde */
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade la sombra aquí */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.calculator input[type="text"] {
+    font-family: 'DS-Digital', sans-serif;
+
+    width: 100%;
+    height: 50px; /* Ajusta la altura según tu preferencia */
+    font-size: 24px;
+    border: none;
+    text-align: right;
+    border-radius: 10px;
+    background-color: transparent; /* Establece el fondo del input como transparente */
+    box-shadow: none; /* Quita la sombra del input */
+    color: black; /* Color del texto negro */
+}
+
+
+#expand{
+    width: 150px;
+    height: 70px;
+}
+
+#backspace{
+    width: 150px;
+    height: 70px;
+}
+
+.calculator button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade la sombra aquí */
+}
+
+
+
+.row {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+button#equals {
+
+    
+    background-color: #f0c000;
+    color: #fff;
+}
+
+button#equals:hover {
+
+    background-color: #e0a000;
+}
